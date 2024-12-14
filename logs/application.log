@@ -1,0 +1,158 @@
+2024-12-14 16:37:52 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 16:37:52 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 16:37:54 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 16:38:04 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Куки успешно получены: {__utmz=216042306.1734183474.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734183474635345393, SCookieGUID=5A8B74D6%2DF095%2D408E%2DAF68%2D667D452058B9, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734183474, _ym_d=1734183474, __utmc=216042306, SUserID=593390863, __utma=216042306.1996850875.1734183474.1734183474.1734183474.1}
+2024-12-14 16:38:04 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 955819
+2024-12-14 16:38:11 [main] INFO  pustrace.elibraryjavaparser.Main - Статистика успешно сохранена в C:\PusTrace\programming\java\ElibraryJavaParser\terminal\export\statistics.json
+2024-12-14 16:42:56 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 16:42:56 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 16:42:57 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 16:43:08 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Куки успешно получены: {__utmz=216042306.1734183778.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734183778213293869, SCookieGUID=45FF9E6E%2D9C42%2D44D7%2D9785%2DCAF392B49494, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734183778, _ym_d=1734183778, __utmc=216042306, SUserID=593391332, __utma=216042306.517702406.1734183778.1734183778.1734183778.1}
+2024-12-14 16:43:08 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 955819
+2024-12-14 16:43:14 [main] INFO  pustrace.elibraryjavaparser.Main - Статистика успешно сохранена в C:\PusTrace\programming\java\ElibraryJavaParser\terminal\export\statistics.json
+2024-12-14 16:47:07 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 16:47:07 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 16:47:10 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 16:47:10 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Куки успешно получены: {__utmz=216042306.1734184030.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734184029799188037, SCookieGUID=C47E4467%2D461D%2D4B2D%2D9240%2D114972839929, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734184030, __utmc=216042306, _ym_d=1734184029, SUserID=593391709, __utma=216042306.1600218046.1734184030.1734184030.1734184030.1}
+2024-12-14 16:47:10 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 955819
+2024-12-14 16:47:16 [main] INFO  pustrace.elibraryjavaparser.Main - Статистика успешно сохранена в C:\PusTrace\programming\java\ElibraryJavaParser\terminal\export\statistics.json
+2024-12-14 17:03:14 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 17:03:14 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 17:03:16 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 17:03:17 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Куки успешно получены: {__utmz=216042306.1734184996.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734184997610700142, SCookieGUID=0707DF92%2D5964%2D476E%2DBE0D%2DFC7F46CB98C6, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734184996, _ym_d=1734184997, __utmc=216042306, SUserID=593393191, __utma=216042306.105416086.1734184996.1734184996.1734184996.1}
+2024-12-14 17:03:17 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 955819
+2024-12-14 17:03:21 [main] INFO  pustrace.elibraryjavaparser.Main - Статистика успешно сохранена в C:\PusTrace\programming\java\ElibraryJavaParser\terminal\export\statistics.json
+2024-12-14 17:03:44 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 17:03:44 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 17:03:47 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 17:03:47 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Куки успешно получены: {SCookieGUID=1064B83D%2DA9E3%2D4D23%2DBF36%2D6EC942EF30C8, SUserID=593393250}
+2024-12-14 17:03:47 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 955819
+2024-12-14 17:03:51 [main] INFO  pustrace.elibraryjavaparser.Main - Статистика успешно сохранена в C:\PusTrace\programming\java\ElibraryJavaParser\terminal\export\statistics.json
+2024-12-14 17:04:30 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 17:04:30 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 17:04:32 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 17:04:42 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Куки успешно получены: {SCookieGUID=9475F95C%2D7016%2D42A6%2D93D4%2DF71BE9519A5A, SUserID=593393305}
+2024-12-14 17:04:42 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 955819
+2024-12-14 17:04:47 [main] INFO  pustrace.elibraryjavaparser.Main - Статистика успешно сохранена в C:\PusTrace\programming\java\ElibraryJavaParser\terminal\export\statistics.json
+2024-12-14 17:17:45 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 17:17:45 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 17:17:47 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 17:17:57 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Куки успешно получены: {SCookieGUID=9C6E33E4%2D5BFA%2D43B9%2DBF35%2D7119674F6030, SUserID=593394332}
+2024-12-14 17:17:57 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 955819
+2024-12-14 17:18:01 [main] INFO  pustrace.elibraryjavaparser.Main - Статистика успешно сохранена в C:\PusTrace\programming\java\ElibraryJavaParser\terminal\export\statistics.json
+2024-12-14 17:18:27 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 17:18:27 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 17:18:29 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 17:18:49 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Куки успешно получены: {__utmz=216042306.1734185925.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734185925242807368, SCookieGUID=8FA39F94%2DEB18%2D4C40%2D88AA%2D2E2BA95CE7C4, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734185925, _ym_d=1734185925, __utmc=216042306, SUserID=593394373, __utma=216042306.498829585.1734185925.1734185925.1734185925.1}
+2024-12-14 17:18:50 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 955819
+2024-12-14 17:18:54 [main] INFO  pustrace.elibraryjavaparser.Main - Статистика успешно сохранена в C:\PusTrace\programming\java\ElibraryJavaParser\terminal\export\statistics.json
+2024-12-14 19:55:43 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 19:55:43 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 19:55:46 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 19:56:06 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Куки успешно получены: {__utmz=216042306.1734195346.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734195346970012535, SCookieGUID=5A20705A%2D0779%2D4EDD%2DB097%2DD8FEABAC28DC, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734195346, _ym_d=1734195346, __utmc=216042306, SUserID=593407436, __utma=216042306.2147129082.1734195346.1734195346.1734195346.1}
+2024-12-14 19:56:06 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 955819
+2024-12-14 19:56:11 [main] INFO  pustrace.elibraryjavaparser.Main - Статистика успешно сохранена в C:\PusTrace\programming\java\ElibraryJavaParser\terminal\export\statistics.json
+2024-12-14 19:57:50 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 19:57:50 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 19:57:52 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 19:57:52 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Куки успешно получены: {__utmz=216042306.1734195472.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734195472627018393, SCookieGUID=67658587%2DF9F6%2D43DB%2DA174%2DE034AC836048, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734195472, _ym_d=1734195472, __utmc=216042306, SUserID=593407587, __utma=216042306.2034038652.1734195472.1734195472.1734195472.1}
+2024-12-14 19:57:52 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 955819
+2024-12-14 19:57:57 [main] INFO  pustrace.elibraryjavaparser.Main - Статистика успешно сохранена в C:\PusTrace\programming\java\ElibraryJavaParser\terminal\export\statistics.json
+2024-12-14 20:08:30 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 20:08:30 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 20:08:32 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 20:08:32 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Куки успешно получены: {__utmz=216042306.1734196112.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734196113111298877, SCookieGUID=7F0716CA%2DA73D%2D4D9B%2D96CA%2D679FD9D0FFC6, __utmt=1, __utmb=216042306.1.10.1734196112, _ym_d=1734196113, __utmc=216042306, SUserID=593408588, __utma=216042306.292942994.1734196112.1734196112.1734196112.1}
+2024-12-14 20:08:32 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 955819
+2024-12-14 20:08:37 [main] INFO  pustrace.elibraryjavaparser.Main - Статистика успешно сохранена в C:\PusTrace\programming\java\ElibraryJavaParser\terminal\export\statistics.json
+2024-12-14 20:11:33 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 20:11:33 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 20:11:35 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 20:11:36 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Куки успешно получены: {__utmz=216042306.1734196295.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=173419629559033341, SCookieGUID=BB39E8A3%2DE45E%2D47AA%2DB89D%2D7192A30029CF, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734196295, _ym_d=1734196295, __utmc=216042306, SUserID=593408821, __utma=216042306.205193071.1734196295.1734196295.1734196295.1}
+2024-12-14 20:11:36 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 955819, 1086593
+2024-12-14 20:11:40 [main] INFO  pustrace.elibraryjavaparser.Main - Статистика успешно сохранена в C:\PusTrace\programming\java\ElibraryJavaParser\terminal\export\statistics.json
+2024-12-14 20:12:09 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 20:12:09 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 20:12:11 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 20:12:11 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Куки успешно получены: {SCookieGUID=FB58D892%2D6096%2D40A9%2D9576%2DD073E28E8AC3, SUserID=593408859}
+2024-12-14 20:12:11 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 955819
+2024-12-14 20:12:16 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 1086593
+2024-12-14 20:12:19 [main] INFO  pustrace.elibraryjavaparser.Main - Статистика успешно сохранена в C:\PusTrace\programming\java\ElibraryJavaParser\terminal\export\statistics.json
+2024-12-14 20:13:29 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 20:13:29 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 20:13:31 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 20:13:51 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Куки успешно получены: {SCookieGUID=043494CC%2DE357%2D4D12%2DB95A%2DACC4FF053762, SUserID=593408958}
+2024-12-14 20:13:51 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 955819
+2024-12-14 20:13:56 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 20:13:56 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 20:13:58 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 20:14:18 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Куки успешно получены: {SCookieGUID=80B6EE0A%2D8BDA%2D462B%2D9477%2DB246B101A455, SUserID=593408995}
+2024-12-14 20:14:18 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 955819
+2024-12-14 20:14:36 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 20:14:36 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 20:14:38 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 20:15:28 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Куки успешно получены: {__utmz=216042306.1734196522.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734196523474872106, SCookieGUID=40EC3AF2%2DDF6E%2D448B%2D90A7%2D4F3E3B1F90F9, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734196522, _ym_d=1734196523, __utmc=216042306, SUserID=593409033, __utma=216042306.2095140134.1734196522.1734196522.1734196522.1}
+2024-12-14 20:15:28 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 955819
+2024-12-14 20:15:33 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 1086593
+2024-12-14 20:15:39 [main] INFO  pustrace.elibraryjavaparser.Main - Статистика успешно сохранена в C:\PusTrace\programming\java\ElibraryJavaParser\terminal\export\statistics.json
+2024-12-14 20:26:45 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 20:26:45 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 20:26:47 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 20:27:27 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 20:27:27 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 20:27:29 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 20:27:29 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Куки успешно получены: {__utmz=216042306.1734197250.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734197250933795757, SCookieGUID=83096966%2D30D1%2D4690%2D86C2%2D8937AF008927, __utmt=1, __utmb=216042306.1.10.1734197250, _ym_d=1734197250, __utmc=216042306, SUserID=593410038, __utma=216042306.924136266.1734197250.1734197250.1734197250.1}
+2024-12-14 20:27:30 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 955819
+2024-12-14 20:27:39 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 1086593
+2024-12-14 20:27:47 [main] INFO  pustrace.elibraryjavaparser.Main - Статистика успешно сохранена в C:\PusTrace\programming\java\ElibraryJavaParser\terminal\export\statistics.json
+2024-12-14 20:29:09 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 20:29:09 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 20:29:11 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 20:29:11 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Куки успешно получены: {SCookieGUID=3CC129B7%2D74F6%2D4843%2D8040%2DF7D209D299D4, SUserID=593410140}
+2024-12-14 20:29:11 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 955819
+2024-12-14 20:29:28 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 20:29:28 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 20:29:30 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 20:30:20 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Куки успешно получены: {__utmz=216042306.1734197413.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734197413897281550, SCookieGUID=693E7441%2D1294%2D4463%2DB6F5%2D00630970DFE1, _ym_isad=1, __utmt=1, __utmb=216042306.1.10.1734197413, _ym_d=1734197413, __utmc=216042306, SUserID=593410164, __utma=216042306.384422487.1734197413.1734197413.1734197413.1}
+2024-12-14 20:30:20 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 955819
+2024-12-14 20:30:30 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 1086593
+2024-12-14 20:31:08 [main] INFO  pustrace.elibraryjavaparser.Main - Статистика успешно сохранена в C:\PusTrace\programming\java\ElibraryJavaParser\terminal\export\statistics.json
+2024-12-14 20:39:06 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 20:39:06 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 20:39:09 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 20:39:28 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 20:39:28 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 20:39:30 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 20:39:30 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Куки успешно получены: {__utmz=216042306.1734197970.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734197970630096976, SCookieGUID=7BFFE8B1%2D72D5%2D4D78%2DBDED%2D721BA66F89E1, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734197970, _ym_d=1734197970, __utmc=216042306, SUserID=593410919, __utma=216042306.1269147397.1734197970.1734197970.1734197970.1}
+2024-12-14 20:39:30 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 955819
+2024-12-14 20:39:45 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 1086593
+2024-12-14 20:39:58 [main] INFO  pustrace.elibraryjavaparser.Main - Статистика успешно сохранена в C:\PusTrace\programming\java\ElibraryJavaParser\terminal\export\statistics.json
+2024-12-14 20:40:45 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 20:40:45 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 20:40:47 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 20:40:47 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Куки успешно получены: {SCookieGUID=93C20550%2DC61F%2D4A77%2DAC11%2DF2D8449C196F, SUserID=593411017}
+2024-12-14 20:40:47 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 955819
+2024-12-14 20:41:34 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 20:41:34 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 20:41:36 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 20:42:26 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Куки успешно получены: {__utmz=216042306.1734198111.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734198111257372599, SCookieGUID=91AE47E8%2DB62A%2D429E%2DBDC4%2DE4AA3BFA892C, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734198111, _ym_d=1734198111, __utmc=216042306, SUserID=593411077, __utma=216042306.1968977192.1734198111.1734198111.1734198111.1}
+2024-12-14 20:42:26 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 955819
+2024-12-14 20:42:36 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 1086593
+2024-12-14 20:43:13 [main] INFO  pustrace.elibraryjavaparser.Main - Статистика успешно сохранена в C:\PusTrace\programming\java\ElibraryJavaParser\terminal\export\statistics.json
+2024-12-14 20:49:02 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 20:49:02 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 20:49:04 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 20:49:32 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 20:49:32 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 20:49:34 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 20:49:34 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Куки успешно получены: {__utmz=216042306.1734198574.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734198574467426540, SCookieGUID=0E211781%2D9FD2%2D4CDF%2DA0F3%2DD752903DF2AB, __utmt=1, __utmb=216042306.1.10.1734198574, _ym_d=1734198574, __utmc=216042306, SUserID=593411668, __utma=216042306.400953468.1734198574.1734198574.1734198574.1}
+2024-12-14 20:49:34 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 955819
+2024-12-14 20:49:39 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 1086593
+2024-12-14 20:49:42 [main] INFO  pustrace.elibraryjavaparser.Main - Статистика успешно сохранена в C:\PusTrace\programming\java\ElibraryJavaParser\terminal\export\statistics.json
+2024-12-14 20:50:01 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 20:50:01 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 20:50:03 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary
+2024-12-14 20:50:03 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Куки успешно получены: {SCookieGUID=FD5D75B7%2DF0D3%2D4F16%2D8E17%2D5F19BD16C0CA, SUserID=593411716}
+2024-12-14 20:50:03 [main] INFO  pustrace.elibraryjavaparser.Main - Обработка автора с ID: 955819
+2024-12-14 20:50:38 [main] INFO  pustrace.elibraryjavaparser.Main - Программа запущена
+2024-12-14 20:50:38 [main] INFO  pustrace.elibraryjavaparser.ElibraryFetcher - Инициализация WebDriver...
+2024-12-14 20:50:40 [main] DEBUG pustrace.elibraryjavaparser.ElibraryFetcher - Открыт сайт eLibrary

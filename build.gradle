@@ -10,8 +10,23 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.slf4j:slf4j-simple:2.0.9'
+
+    // Selenium WebDriver
+    implementation 'org.seleniumhq.selenium:selenium-java:4.27.0'
+    implementation 'org.seleniumhq.selenium:selenium-devtools-v131:4.27.0'
+
+    // WebDriver Manager для автоматической загрузки драйверов
+    implementation 'io.github.bonigarcia:webdrivermanager:5.8.0'
+
+    // логирование
+    implementation 'org.apache.logging.log4j:log4j-core:2.20.0'
+    implementation 'org.apache.logging.log4j:log4j-api:2.20.0'
+
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'io.rest-assured:rest-assured:5.4.0'
+    implementation 'org.jsoup:jsoup:1.15.3'
 }
 
 test {
