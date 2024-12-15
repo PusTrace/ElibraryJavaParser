@@ -13,7 +13,6 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.slf4j:slf4j-simple:2.0.9'
 
     // Selenium WebDriver
     implementation 'org.seleniumhq.selenium:selenium-java:4.27.0'
@@ -23,12 +22,21 @@ dependencies {
     implementation 'io.github.bonigarcia:webdrivermanager:5.8.0'
 
     // логирование
-    implementation 'org.apache.logging.log4j:log4j-core:2.20.0'
-    implementation 'org.apache.logging.log4j:log4j-api:2.20.0'
+    implementation 'org.apache.logging.log4j:log4j-core:2.14.1'
+    implementation 'org.apache.logging.log4j:log4j-api:2.14.1'
+
+
+    // unit-tests
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.mockito:mockito-core:4.8.1'
+    testImplementation 'org.mockito:mockito-junit-jupiter:4.8.1'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    testImplementation 'org.mockito:mockito-core:3.9.0'
+    testImplementation 'org.mockito:mockito-junit-jupiter:3.9.0'
+
 
     // parser
-    testImplementation platform('org.junit:junit-bom:5.10.0')
-    testImplementation 'org.junit.jupiter:junit-jupiter'
     implementation 'io.rest-assured:rest-assured:5.4.0'
     implementation 'org.jsoup:jsoup:1.15.3'
 
@@ -37,7 +45,7 @@ dependencies {
     implementation 'org.openjfx:javafx-fxml:17'  // Если используете FXML
 
     //other
-    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'com.google.code.gson:gson:2.8.9'
 
 
 }
@@ -51,6 +59,14 @@ javafx {
     version = "17"
     modules = [ 'javafx.controls', 'javafx.fxml' ]  // Указываем модули, которые используем
 }
+
+javadoc {
+    source = sourceSets.main.allJava
+    classpath = sourceSets.main.compileClasspath
+    destinationDir = file("$buildDir/docs/javadoc")
+    options.encoding = 'UTF-8'
+}
+
 
 test {
     useJUnitPlatform()

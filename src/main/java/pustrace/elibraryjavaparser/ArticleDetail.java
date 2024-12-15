@@ -11,6 +11,7 @@ public class ArticleDetail {
         this.place = place;
     }
 
+    // Геттеры
     public String getTitle() {
         return title;
     }
@@ -19,6 +20,21 @@ public class ArticleDetail {
         return publication;
     }
 
-    public String getPlace() {return place;}
+    public String getPlace() {
+        return place;
+    }
+
+    // Сеттеры
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setPublication(String publication) {
+        this.publication = publication;
+    }
+
+    public void setPlace(String place) {
+        this.place = place;
+    }
 }
 
