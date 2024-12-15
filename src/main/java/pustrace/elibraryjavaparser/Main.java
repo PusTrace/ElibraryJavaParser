@@ -2,18 +2,14 @@ package pustrace.elibraryjavaparser;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
-
-// логгер
+import java.util.stream.Collectors;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-// тесты
-import java.lang.Thread;
+import java.io.File;
 
 
 public class Main {
@@ -21,33 +17,42 @@ public class Main {
 
     public static void main(String[] args) {
         logger.info("Программа запущена");
-        String inputFilePath = "C:\\PusTrace\\programming\\java\\ElibraryJavaParser\\terminal\\import\\author.txt"; // Путь к файлу с authorId
-        String outputFilePath = "C:\\PusTrace\\programming\\java\\ElibraryJavaParser\\terminal\\export\\statistics.json"; // Путь к выходному JSON-файлу
 
+        // Путь к входному и выходному файлам передаем из args или задаем вручную
+        String inputFilePath = args.length > 0 ? args[0] : "C:\\path\\to\\author.txt";
+        String outputFilePath = args.length > 1 ? args[1] : "C:\\path\\to\\statistics.json";
+
+        processAuthors(inputFilePath, outputFilePath, 5000, 3000);
+    }
+
+    public static void processAuthors(String inputFilePath, String outputFilePath, int captchaDelay, int pageDelay) {
+        // Проверяем, что файлы существуют
+        File inputFile = new File(inputFilePath);
+        if (!inputFile.exists()) {
+            System.out.println("Входной файл не существует.");
+            return;
+        }
         AuthorIdReader reader = new AuthorIdReader();
-        ElibraryFetcher fetcher = new ElibraryFetcher();
+
+        // Создаем объект ElibraryFetcher с заданными задержками
+        ElibraryFetcher fetcher = new ElibraryFetcher(captchaDelay, pageDelay);
+
+        // Инициализируем WebDriver и получаем куки
         fetcher.init();
 
         try {
             List<String> authorIds = reader.readAuthorIds(inputFilePath);
-            List<AuthorStatistics> statisticsList = new ArrayList<>();
 
-
-            for (String authorId : authorIds) {
-                logger.info("Обработка автора с ID: {}", authorId);
-                AuthorStatistics stats = fetcher.fetchAuthorStatistics(authorId);
-                statisticsList.add(stats);
-                // Задержка между обработкой авторов
-                try {
-                    Thread.sleep(3000); // 3000 мс = 3 секунды
-                } catch (InterruptedException e) {
-                    logger.warn("Поток был прерван", e);
-                    Thread.currentThread().interrupt(); // Восстанавливаем состояние прерывания
-                }
-            }
+            // Используем Stream API для обработки авторов
+            List<AuthorStatistics> statisticsList = authorIds.stream()
+                    .map(authorId -> {
+                        logger.info("Обработка автора с ID: {}", authorId);
+                        AuthorStatistics stats = fetcher.fetchAuthorStatistics(authorId);  // Передаем задержку
+                        return stats;
+                    })
+                    .collect(Collectors.toList());
 
             saveToJson(outputFilePath, statisticsList);
-            System.out.println("Статистика сохранена в " + outputFilePath);
             logger.info("Статистика успешно сохранена в {}", outputFilePath);
         } catch (IOException e) {
             logger.error("Ошибка во время выполнения программы", e);
@@ -59,7 +64,7 @@ public class Main {
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
             gson.toJson(data, writer);
         } catch (IOException e) {
-            System.err.println("Ошибка сохранения JSON: " + e.getMessage());
+            logger.error("Ошибка сохранения JSON: {}", e.getMessage());
         }
     }
 }

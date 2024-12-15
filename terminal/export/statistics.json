@@ -1,14 +1,73 @@
 [
   {
-    "totalArticles": 0,
-    "zeroCitationArticles": 0,
-    "hIndex": 0,
-    "zeroCitationDetails": []
+    "authorName": "АНДРЮШКОВА НАТАЛЬЯ АЛЕКСЕЕВНА",
+    "totalArticles": 4,
+    "zeroCitationArticles": 3,
+    "hIndex": 1,
+    "zeroCitationDetails": [
+      {
+        "title": "МЕДИАОБРАЗЫ КАНДИДАТОВ В ПРЕЗИДЕНТЫ РФ 2018 Г. В ЗАРУБЕЖНЫХ СМИ",
+        "publication": "Андрюшкова Н.А.",
+        "place": "В сборнике: Череповецкие научные чтения - 2017. Материалы Всероссийской научно-практической конференции: в 4х частях. Отв. ред. Е.В. Целикова. 2018. С. 5-6."
+      },
+      {
+        "title": "ФОРМИРОВАНИЕ ОБРАЗА АМЕРИКАНСКОГО ПОЛИТИКА И АМЕРИКАНСКИХ ПОЛИТИЧЕСКИХ КОММУНИКАЦИЙ В РОССИЙСКИХ СМИ",
+        "publication": "Малова Н.А.",
+        "place": "В сборнике: Студент и наука (гуманитарный цикл) - 2017. Материалы международной студенческой научно-практической конференции. Главные редакторы Н.Н. Макарова, Е.В. Олейник. Ответственный редактор А.С. Гаан. 2017. С. 191-194."
+      },
+      {
+        "title": "НЕКОТОРЫЕ АСПЕКТЫ ВИЗУАЛИЗАЦИИ КАК АКТУАЛЬНОГО МЕДИАТРЕНДА",
+        "publication": "Дворянова М.В., Малова Н.А., Лобанова И.П.",
+        "place": "В сборнике: Череповецкие научные чтения - 2016. Материалы Всероссийской научно-практической конференции. В 3 частях. Ответственный редактор Е.В. Целикова. 2017. С. 40-41."
+      }
+    ]
   },
   {
-    "totalArticles": 0,
-    "zeroCitationArticles": 0,
-    "hIndex": 0,
-    "zeroCitationDetails": []
+    "authorName": "ACEVES ALEJANDRO BORBOLLA",
+    "totalArticles": 67,
+    "zeroCitationArticles": 8,
+    "hIndex": 19,
+    "zeroCitationDetails": [
+      {
+        "title": "STANDING AND TRAVELING WAVES IN A MINIMAL NONLINEARLY DISPERSIVE LATTICE MODEL",
+        "publication": "Parker R., Germain P., Cuevas-Maraver J., Aceves A., Kevrekidis P.G.",
+        "place": "Physica D: Nonlinear Phenomena. 2024. Т. 467. С. 134273."
+      },
+      {
+        "title": "RAINBOW SPIRAL EMISSION FROM OPTICAL FIBERS",
+        "publication": "Mangini F., Niang A., Frezza F., Ferraro M., Zitelli M., Kalashnikov V., Tonello A., Couderc V., Wabnitz S., Mansuryan T., Aceves A.B.",
+        "place": "В сборнике: 2021 Conference on Lasers and Electro-Optics, CLEO 2021 - Proceedings. 2021."
+      },
+      {
+        "title": "LIGHT CONFINEMENT IN CORELESS TWISTED PHOTONIC CRYSTAL FIBERS",
+        "publication": "Copeland A., Aceves A.",
+        "place": "В сборнике: 2020 14th International Congress on Artificial Materials for Novel Wave Phenomena, Metamaterials 2020. 14. 2020. С. 45-47."
+      },
+      {
+        "title": "SPATIAL BEAM CLEANING IN QUADRATIC NONLINEAR MEDIUM",
+        "publication": "Krupa K., Fona R., Wabnitz S., Baronio F., Tonello A., Labruyère A., Shalaby B.M., Couderc V., Aceves A.B., Millot G.",
+        "place": "В сборнике: Optics InfoBase Conference Papers. Сер. \"Nonlinear Photonics, NP 2018\" 2018."
+      },
+      {
+        "title": "OPTICAL MODE STABILITY AND DYNAMICS IN NONLINEAR TWISTED PT-SYMMETRIC STRUCTURES",
+        "publication": "Castro-Castro C., Aceves A.B.",
+        "place": "В сборнике: AIP Conference Proceedings. 9th International Conference for Promoting the Application of Mathematics in Technical and Natural Sciences, AMiTaNS 2017. 2017. С. 020001."
+      },
+      {
+        "title": "OPTICAL BULLETS IN 2-DIMENSIONAL FIBER ARRAYS",
+        "publication": "Aceves A.B., Castro-Castro C., Shtyrina C.O.V., Fedoruk M.P., Turitsyn S.K., Rubenchik A.M.",
+        "place": "В сборнике: Optics InfoBase Conference Papers. Сер. \"Nonlinear Photonics, NP 2016\" 2016."
+      },
+      {
+        "title": "POINT TO POINT COUPLING WITH ONE DIMENSIONAL GRAPHENE BASED EDGE PLASMON POLARITONS",
+        "publication": "De Angelis C., Locatelli A., Mutti A., Aceves A.B.",
+        "place": "В сборнике: 2015 9th International Congress on Advanced Electromagnetic Materials in Microwaves and Optics, METAMATERIALS 2015. 9. 2015. С. 52-54."
+      },
+      {
+        "title": "PREFACE",
+        "publication": "Aceves A., Lvov Y.",
+        "place": "Physica D: Nonlinear Phenomena. 2003. Т. 184. № 1-4. С. 1-2."
+      }
+    ]
   }
 ]

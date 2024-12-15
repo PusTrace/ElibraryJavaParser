@@ -1,0 +1,61 @@
+package pustrace.elibraryjavaparser;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class PageParser {
+
+    public static void processPage(Document doc, AuthorStatistics statistics, List<Integer> citationsList) {
+        Element table = doc.selectFirst("table#restab");
+
+        if (table != null) {
+            Elements rows = table.select("tr");
+            rows.stream()
+                    .map(row -> {
+                        Element titleCell = row.selectFirst("td:nth-child(2) span a b span");
+                        Element publicationCell = row.selectFirst("td:nth-child(2) font i");
+                        Element citationCell = row.selectFirst("td.select-tr-right");
+                        Element placeCell = row.selectFirst("td:nth-child(2) span font:nth-child(5)");
+
+                        if (titleCell == null || publicationCell == null || citationCell == null || placeCell == null) return null;
+
+                        String title = titleCell.text();
+                        statistics.incrementTotalArticles();
+
+                        String publication = publicationCell.text();
+                        String place = placeCell.text();
+                        int citations;
+
+                        try {
+                            citations = Integer.parseInt(citationCell.text().trim());
+                        } catch (NumberFormatException e) {
+                            citations = 0;
+                        }
+
+                        citationsList.add(citations);
+
+                        if (citations == 0) {
+                            statistics.incrementZeroCitationArticles();
+                            statistics.addZeroCitationDetails(title, publication, place);
+                        }
+
+                        return title;
+                    })
+                    .filter(title -> title != null)  // Фильтрация null значений
+                    .collect(Collectors.toList());
+        }
+    }
+
+    public static String getAuthorName(Document doc) {
+        Element authorNameElement = doc.selectFirst("#thepage > table > tbody > tr > td > table:nth-child(1) > tbody > tr > td:nth-child(2) > form > table > tbody > tr:nth-child(3) > td:nth-child(1) > table > tbody > tr > td > div:nth-child(1) > font > b");
+        if (authorNameElement != null) {
+            return authorNameElement.text();
+        }
+        return null;
+    }
+}
