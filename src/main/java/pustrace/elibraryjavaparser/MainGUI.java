@@ -5,9 +5,16 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-
+/**
+ * Главный класс для графического интерфейса пользователя (GUI) приложения.
+ * Позволяет пользователю вводить параметры и запускать процесс обработки данных.
+ */
 public class MainGUI extends Application {
-
+    /**
+     * Запускает графический интерфейс и настраивает все элементы UI.
+     *
+     * @param primaryStage Основное окно приложения.
+     */
     @Override
     public void start(Stage primaryStage) {
         // Текстовое поле для пути к входному файлу
@@ -103,7 +110,12 @@ public class MainGUI extends Application {
         primaryStage.show();
     }
 
-    // Метод для отображения всплывающего окна с сообщением
+    /**
+     * Отображает всплывающее окно с сообщением об ошибке.
+     *
+     * @param title   Заголовок окна.
+     * @param message Сообщение об ошибке.
+     */
     private void showAlert(String title, String message) {
         Alert alert = new Alert(Alert.AlertType.ERROR);
         alert.setTitle(title);
@@ -111,7 +123,11 @@ public class MainGUI extends Application {
         alert.setContentText(message);
         alert.showAndWait();
     }
-
+    /**
+     * Запускает приложение JavaFX.
+     *
+     * @param args Аргументы командной строки.
+     */
     public static void main(String[] args) {
         launch(args);
     }

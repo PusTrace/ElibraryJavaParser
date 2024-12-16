@@ -4,9 +4,17 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
 import java.util.Map;
-
+/**
+ * Класс для получения данных о страницах с использованием REST API.
+ */
 public class DataFetcher {
-
+    /**
+     * Извлекает данные страницы по URL с использованием cookies.
+     *
+     * @param url     URL страницы для получения данных.
+     * @param cookies Карта cookies для запроса.
+     * @return Ответ в виде объекта Response.
+     */
     public static Response fetchPageData(String url, Map<String, String> cookies) {
         return RestAssured.given()
                 .cookies(cookies)
