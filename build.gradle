@@ -2,6 +2,7 @@ plugins {
     id 'java'
     id 'application'
     id 'org.openjfx.javafxplugin' version '0.0.8'
+    id 'com.github.johnrengelman.shadow' version '7.1.0'
 }
 
 group = 'org.example'
@@ -22,6 +23,7 @@ dependencies {
     implementation 'io.github.bonigarcia:webdrivermanager:5.8.0'
 
     // логирование
+    implementation 'org.slf4j:slf4j-api:2.0.13'
     implementation 'org.apache.logging.log4j:log4j-core:2.14.1'
     implementation 'org.apache.logging.log4j:log4j-api:2.14.1'
 
@@ -52,12 +54,19 @@ dependencies {
 
 application {
     // Указываем основной класс с JavaFX
-    mainClass = 'pustrace.elibraryjavaparser.MainGUI'
+    mainClass = 'pustrace.elibraryjavaparser.Main'
 }
 
 javafx {
     version = "17"
     modules = [ 'javafx.controls', 'javafx.fxml' ]  // Указываем модули, которые используем
+}
+
+shadowJar {
+    archiveClassifier.set('all')
+    manifest {
+        attributes 'Main-Class': 'pustrace.elibraryjavaparser.Main'
+    }
 }
 
 javadoc {

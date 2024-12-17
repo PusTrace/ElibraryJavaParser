@@ -99,11 +99,11 @@ public class AuthorStatistics {
      * Добавляет статью без цитирования в список.
      *
      * @param title Название статьи.
-     * @param publication Название публикации.
+     * @param author автор публикации.
      * @param place Место публикации.
      */
-    public void addZeroCitationDetails(String title, String publication, String place) {
-        this.zeroCitationDetails.add(new ArticleDetail(title, publication, place));
+    public void addZeroCitationDetails(String title, String author, String place) {
+        this.zeroCitationDetails.add(new ArticleDetail(title, author, place));
     }
 }
 

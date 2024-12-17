@@ -23,7 +23,7 @@ public class Main {
      * @param args Массив аргументов командной строки. Первый аргумент — путь к входному файлу, второй — путь к выходному файлу.
      */
     public static void main(String[] args) {
-        logger.info("Программа запущена");
+        logger.info("programm is starting...");
 
         // Путь к входному и выходному файлам передаем из args или задаем вручную
         String inputFilePath = args.length > 0 ? args[0] : "C:\\path\\to\\author.txt";
@@ -43,7 +43,7 @@ public class Main {
         // Проверяем, что файлы существуют
         File inputFile = new File(inputFilePath);
         if (!inputFile.exists()) {
-            System.out.println("Входной файл не существует.");
+            System.out.println("input file does not exist.");
             return;
         }
         AuthorIdReader reader = new AuthorIdReader();
@@ -60,16 +60,16 @@ public class Main {
             // Используем Stream API для обработки авторов
             List<AuthorStatistics> statisticsList = authorIds.stream()
                     .map(authorId -> {
-                        logger.info("Обработка автора с ID: {}", authorId);
+                        logger.info("check author with id: {}", authorId);
                         AuthorStatistics stats = fetcher.fetchAuthorStatistics(authorId);  // Передаем задержку
                         return stats;
                     })
                     .collect(Collectors.toList());
 
             saveToJson(outputFilePath, statisticsList);
-            logger.info("Статистика успешно сохранена в {}", outputFilePath);
+            logger.info("statistics saved in {}", outputFilePath);
         } catch (IOException e) {
-            logger.error("Ошибка во время выполнения программы", e);
+            logger.error("error", e);
         }
     }
     /**
@@ -83,7 +83,7 @@ public class Main {
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
             gson.toJson(data, writer);
         } catch (IOException e) {
-            logger.error("Ошибка сохранения JSON: {}", e.getMessage());
+            logger.error("error with saving JSON: {}", e.getMessage());
         }
     }
 }

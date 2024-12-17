@@ -5,18 +5,18 @@ package pustrace.elibraryjavaparser;
  */
 public class ArticleDetail {
     private String title;
-    private String publication;
+    private String author;
     private String place;
     /**
      * Конструктор для инициализации всех полей класса.
      *
      * @param title Название статьи.
-     * @param publication Название публикации или издания.
+     * @param author Название публикации или издания.
      * @param place Место публикации.
      */
-    public ArticleDetail(String title, String publication, String place) {
+    public ArticleDetail(String title, String author, String place) {
         this.title = title;
-        this.publication = publication;
+        this.author = author;
         this.place = place;
     }
 
@@ -29,12 +29,12 @@ public class ArticleDetail {
         return title;
     }
     /**
-     * Возвращает название публикации.
+     * Возвращает автора публикации.
      *
-     * @return Название публикации.
+     * @return автора публикации.
      */
-    public String getPublication() {
-        return publication;
+    public String getauthor() {
+        return author;
     }
     /**
      * Возвращает место публикации.
@@ -54,12 +54,12 @@ public class ArticleDetail {
         this.title = title;
     }
     /**
-     * Устанавливает название публикации.
+     * Устанавливает авторов публикации.
      *
-     * @param publication Название публикации.
+     * @param author автор публикации.
      */
-    public void setPublication(String publication) {
-        this.publication = publication;
+    public void setauthor(String author) {
+        this.author = author;
     }
     /**
      * Устанавливает место публикации.

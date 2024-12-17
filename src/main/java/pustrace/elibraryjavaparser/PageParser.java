@@ -26,16 +26,16 @@ public class PageParser {
             rows.stream()
                     .map(row -> {
                         Element titleCell = row.selectFirst("td:nth-child(2) span a b span");
-                        Element publicationCell = row.selectFirst("td:nth-child(2) font i");
+                        Element authorscell = row.selectFirst("td:nth-child(2) font i");
                         Element citationCell = row.selectFirst("td.select-tr-right");
                         Element placeCell = row.selectFirst("td:nth-child(2) span font:nth-child(5)");
 
-                        if (titleCell == null || publicationCell == null || citationCell == null || placeCell == null) return null;
+                        if (titleCell == null || authorscell == null || citationCell == null || placeCell == null) return null;
 
                         String title = titleCell.text();
                         statistics.incrementTotalArticles();
 
-                        String publication = publicationCell.text();
+                        String author = authorscell.text();
                         String place = placeCell.text();
                         int citations;
 
@@ -49,7 +49,7 @@ public class PageParser {
 
                         if (citations == 0) {
                             statistics.incrementZeroCitationArticles();
-                            statistics.addZeroCitationDetails(title, publication, place);
+                            statistics.addZeroCitationDetails(title, author, place);
                         }
 
                         return title;
