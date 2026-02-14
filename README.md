@@ -1,3 +1,5 @@
+![Status](https://img.shields.io/badge/status-finished-brightgreen)
+
 # eLibrary Java Parser
 
 **eLibrary Java Parser** is a Java application for automated collection and analysis of author data from the bibliographic database **eLibrary.ru**. It provides a graphical interface for input parameters and generates statistics such as total articles, h-index, zero-citation articles, and more.
