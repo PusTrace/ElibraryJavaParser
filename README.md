@@ -1,119 +1,97 @@
-# eLibraryJavaParser
+# eLibrary Java Parser
 
-## Описание
-**eLibraryJavaParser** — это приложение на языке Java для автоматизированного сбора и анализа данных об авторах из библиографической базы **eLibrary.ru**. Программа предоставляет графический интерфейс для ввода параметров обработки и позволяет собирать статистику, такую как общее количество статей, индекс Хирша, количество статей без цитирований и другая информация.
+**eLibrary Java Parser** is a Java application for automated collection and analysis of author data from the bibliographic database **eLibrary.ru**. It provides a graphical interface for input parameters and generates statistics such as total articles, h-index, zero-citation articles, and more.
 
-## Основные функции
-- Извлечение информации об авторах с eLibrary.
-- Сбор статистики по статьям авторов.
-- Расчёт индекса Хирша (h-index).
-- Генерация отчёта в формате JSON.
-- Удобный графический интерфейс на JavaFX.
+---
 
-## Технологии
-Проект разработан с использованием следующих технологий:
-- **JavaFX** для создания графического интерфейса.
-- **Selenium WebDriver** для автоматизации работы с веб-интерфейсом eLibrary.
-- **RestAssured** для выполнения HTTP-запросов.
-- **Jsoup** для парсинга HTML-страниц.
-- **Stream API** для обработки данных.
-- **Gson** для сериализации и десериализации данных в формате JSON.
+## Features
 
-## Требования
-- Java 17 или выше.
-- Установленный **Gradle** для управления зависимостями.
-- Браузер Google Chrome и соответствующий **ChromeDriver**.
+* Extract author information from eLibrary.
+* Collect statistics on author publications.
+* Calculate h-index.
+* Export results in JSON format.
+* User-friendly GUI with JavaFX.
 
-## Установка и запуск
-1. Клонируйте репозиторий проекта:
-    ```bash
-    git clone https://github.com/yourusername/eLibraryJavaParser.git
-    ```
-2. Перейдите в директорию проекта:
-    ```bash
-    cd eLibraryJavaParser
-    ```
-3. Установите зависимости с помощью Gradle:
-    ```bash
-    gradle build
-    ```
-4. Убедитесь, что **ChromeDriver** доступен в переменной окружения PATH или находится в корневой директории проекта.
-5. Запустите приложение:
-    ```bash
-    gradle run
-    ```
+---
 
-## Инструкция по использованию
-1. При запуске приложения откроется графический интерфейс.
-2. Укажите путь к входному файлу (формат `.txt`) со списком ID авторов.
-3. Укажите путь к выходному файлу (формат `.json`), куда будет сохранена статистика.
-4. (Опционально) Для разработчиков доступны параметры задержки:
-   - Задержка до получения cookies для капчи (в миллисекундах).
-   - Задержка между обработкой страниц (в миллисекундах).
-5. Нажмите кнопку **«Запустить обработку»**.
-6. По завершении обработки JSON-файл с результатами будет сохранён в указанном месте.
+## Technologies
 
-## Формат входного файла
-Входной файл должен содержать список ID авторов, каждый ID — с новой строки, например:
-```
-123456
-789012
-345678
+* **JavaFX** – GUI
+* **Selenium WebDriver** – web automation
+* **RestAssured** – HTTP requests
+* **Jsoup** – HTML parsing
+* **Stream API** – data processing
+* **Gson** – JSON serialization/deserialization
+
+---
+
+## Requirements
+
+* Java 17+
+* Gradle
+* Google Chrome and compatible ChromeDriver
+
+---
+
+## Installation & Run
+
+```bash
+git clone https://github.com/yourusername/eLibraryJavaParser.git
+cd eLibraryJavaParser
+gradle build
+gradle run
 ```
 
-## Формат выходного файла
-Выходной файл генерируется в формате JSON и содержит следующую структуру для каждого автора:
+> Ensure **ChromeDriver** is in PATH or project root.
+
+---
+
+## Usage
+
+1. Launch the application.
+2. Select an input `.txt` file containing author IDs (one per line).
+3. Select output `.json` file for results.
+4. (Optional) Configure delays for cookie retrieval or page processing.
+5. Click **Run** to start processing.
+
+JSON output example:
+
 ```json
 [
   {
-    "authorName": "Иванов Иван Иванович",
+    "authorName": "Ivanov Ivan Ivanovich",
     "totalArticles": 10,
     "zeroCitationArticles": 3,
     "hIndex": 5,
     "zeroCitationDetails": [
       {
-        "title": "Статья 1",
-        "author": "Иванов И. И.",
-        "place": "Журнал 1"
+        "title": "Article 1",
+        "author": "Ivanov I. I.",
+        "place": "Journal 1"
       }
     ]
   }
 ]
 ```
 
-## Основные компоненты проекта
-### 1. **MainGUI**
-Класс для управления графическим интерфейсом пользователя. Предоставляет элементы для ввода данных и запуска обработки.
+---
 
-### 2. **Main**
-Точка входа в приложение. Реализует основной процесс обработки, включая чтение ID авторов, сбор статистики и сохранение данных.
+## Project Components
 
-### 3. **ElibraryFetcher**
-Модуль для взаимодействия с eLibrary. Отвечает за получение куки, загрузку страниц авторов и сбор данных.
+* **MainGUI** – GUI management and input interface.
+* **Main** – Entry point, coordinates data processing and saving.
+* **ElibraryFetcher** – Handles cookie retrieval and author page access.
+* **PageParser** – Parses HTML pages for article data.
+* **AuthorStatistics** – Stores author statistics (total articles, h-index, etc.).
+* **AuthorIdReader** – Reads author IDs from input file.
+* **CookieFetcher** – Automates cookie retrieval via Selenium.
+* **DataFetcher** – Performs HTTP requests to author pages.
 
-### 4. **PageParser**
-Компонент для парсинга HTML-страниц авторов. Извлекает данные о статьях и обновляет статистику.
+---
 
-### 5. **AuthorStatistics**
-Класс для хранения статистики по авторам (общее количество статей, индекс Хирша, статьи без цитирований и т.д.).
+## Extensibility
 
-### 6. **AuthorIdReader**
-Компонент для чтения списка ID авторов из текстового файла.
-
-### 7. **CookieFetcher**
-Модуль для автоматического получения куки с сайта eLibrary с использованием Selenium.
-
-### 8. **DataFetcher**
-Отвечает за выполнение HTTP-запросов к страницам авторов.
-
-## Возможности расширения
-Проект может быть расширен для выполнения следующих задач:
-- Сбор данных с других платформ (например, Scopus, Web of Science).
-- Добавление анализа данных (визуализация, статистическая обработка).
-- Локализация интерфейса на другие языки.
-
-## Контакты
-Для вопросов и предложений обращайтесь:
-- **Email:** sergeivavilin2005@mail.ru
-- **GitHub:** [https://github.com/pustrace](https://github.com/pustrace)
+* Support additional platforms (Scopus, Web of Science).
+* Add data analysis or visualization.
+* Localize GUI to other languages.
 
